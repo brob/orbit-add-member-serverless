@@ -19,7 +19,7 @@ This is a proof of concept repository for a serverless function that accepts a T
 
 ![Shortcut screenshot](./images/shortcut-screenshot.png)
 
-This proof of concept operates under the assumption of as little interaction as possible. For those on MacOS or iOS, an Apple Shortcut can be used. 
+This proof of concept operates under the assumption of as little interaction as possible. For those on MacOS or iOS, [an Apple Shortcut can be used](https://www.icloud.com/shortcuts/f43f44c6c5c443f988fe71f14582b608). 
 
 The Shortcut can be initiated from the menu bar on MacOS and the "Share sheet" on iOS. On desktop, a Twitter URL should be copied and stored in the user's clipboard and then the Shortcut can be run.
 
