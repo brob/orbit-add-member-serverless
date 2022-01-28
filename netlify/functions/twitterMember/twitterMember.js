@@ -1,7 +1,6 @@
 require('dotenv').config()
 const fetch = require('node-fetch').default
 
-// Docs on event and context https://www.netlify.com/docs/functions/#the-handler-method
 const handler = async (event) => {
   try {
     const { url } = event.queryStringParameters
