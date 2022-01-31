@@ -5,8 +5,8 @@
   publish = "."
 
 [template.environment]
-  ORBIT_WORKSPACE = "The ID for your Orbit workspace (usually found in the URL for your dashboard)"
-  ORBIT_API_KEY = "Your Orbit API key. Can be found in your Integrations page or your personal settings"
+  ORBIT_WORKSPACE = "ORBIT_WORKSPACE: usually found in the URL for your dashboard"
+  ORBIT_API_KEY = "ORBIT_API_KEY: Can be found in your Integrations page or your personal settings"
 
   ## Uncomment to use this redirect for Single Page Applications like create-react-app.
   ## Not needed for static site generators.
