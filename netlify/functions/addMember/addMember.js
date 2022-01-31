@@ -4,7 +4,7 @@ const fetch = require('node-fetch').default
 const handler = async (event) => {
   try {
     const { source, username, tags='' } = event.queryStringParameters
-    console.log(source, username, tags)
+    console.log(event.queryStringParameters)
     if (!(source && username)) return {
       statusCode: 500,
       body: JSON.stringify({
