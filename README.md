@@ -15,6 +15,12 @@ This is a proof of concept repository for a serverless function that accepts a T
 |ORBIT_WORKSPACE| *string* Orbit workspace ID | 
 |ORBIT_API_KEY| *string* Orbit API key|
 
+
+## Quick deploy with Netlify
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/brob/orbit-twitter-add-serverless)
+
+The above button will fork this repository and set up a Netlify instance. Netlify SHOULD ask you for the two env variables listed above. If it doesn't, you can access that from the Netlify Dashboard in the Build & Deploy settings.
+
 ## Setting up an Apple Shortcut
 
 ![Shortcut screenshot](./images/shortcut-screenshot.png)
