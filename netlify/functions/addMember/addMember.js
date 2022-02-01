@@ -13,7 +13,6 @@ const handler = async (event) => {
         error: 'Missing API key'
       })
     }
-    console.log(event.queryStringParameters)
     if (source === '' || username === '') return {
       statusCode: 500,
       body: JSON.stringify({

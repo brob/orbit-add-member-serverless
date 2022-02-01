@@ -6,7 +6,6 @@
 
 [template.environment]
   ORBIT_WORKSPACE = "ORBIT_WORKSPACE: usually found in the URL for your dashboard"
-  ORBIT_API_KEY = "ORBIT_API_KEY: Can be found in your Integrations page or your personal settings"
 
   ## Uncomment to use this redirect for Single Page Applications like create-react-app.
   ## Not needed for static site generators.
