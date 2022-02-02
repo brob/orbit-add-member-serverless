@@ -45,7 +45,11 @@ curl --request GET 'http://your-url.com/.netlify/functions/addMember?source=twit
 
 ## Setting up an Apple Shortcut
 
-This proof of concept operates under the assumption of as little interaction as possible. For those on MacOS or iOS, [an Apple Shortcut can be used](https://www.icloud.com/shortcuts/ffd196ef72b14267861b9831dddfbe0e). 
+This proof of concept operates under the assumption of as little interaction as possible. For those on MacOS or iOS, [an Apple Shortcut can be used](https://www.icloud.com/shortcuts/ffd196ef72b14267861b9831dddfbe0e).
+
+*CURRENT ROADBLOCK*
+
+Currently Apple's Shortcuts don't recognize the shortcut link properly on MacOS. The link above can be used on iOS (and works well on iOS). Once it's installed on iOS, it will be available on MacOS, as well. Hopefully, Apple fixes this in the near future.
 
 The Shortcut can be initiated from the menu bar on MacOS. It will ask for a source, username, and list of tags. When installed, the Shortcut will ask for an API key and a serverless function URL to run.
 
